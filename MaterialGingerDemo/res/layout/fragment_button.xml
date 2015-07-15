@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="outsideOverlay">
+    
+    <LinearLayout    
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center"
+        android:padding="8dp">
+
+	    <TextView 
+			android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="@dimen/title_text"
+		    android:padding="8dp"
+		    android:textColor="#FF000000"
+		    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+		    android:text="Flat"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1.0"
+	        android:gravity="center">
+	        
+	        <com.hanry.material.widget.Button
+                style="@style/FlatButtonRippleStyle"
+		        android:id="@+id/button_bt_flat"
+		        android:layout_width="0dp"
+		        android:layout_height="@dimen/bt_height"
+		        android:layout_weight="0.4"
+		        android:textColor="#FF000000"
+		        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+		        android:text="BUTTON"/>
+	        
+	        <View
+	            android:layout_width="0dp"
+		        android:layout_height="1dp"
+		        android:layout_weight="0.1"/>
+	        
+	        <com.hanry.material.widget.Button
+                style="@style/FlatColorButtonRippleStyle"
+		        android:id="@+id/button_bt_flat_color"
+		        android:layout_width="0dp"
+		        android:layout_height="@dimen/bt_height"
+		        android:layout_weight="0.4"
+		        android:textColor="#FF2196F3"
+		        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+		        android:text="BUTTON"
+		        app:rd_delayClick="afterRelease"/>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1.0"
+	        android:gravity="center"
+	        android:paddingTop="8dp">
+	        
+	        <com.hanry.material.widget.Button
+                style="@style/FlatWaveButtonRippleStyle"
+		        android:id="@+id/button_bt_flat_wave"
+		        android:layout_width="0dp"
+		        android:layout_height="@dimen/bt_height"
+		        android:layout_weight="0.4"
+		        android:textColor="#FF000000"
+		        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+		        android:text="BUTTON"/>
+	        
+	        <View
+	            android:layout_width="0dp"
+		        android:layout_height="1dp"
+		        android:layout_weight="0.1"/>
+	        
+	        <com.hanry.material.widget.Button
+                style="@style/FlatWaveColorButtonRippleStyle"
+		        android:id="@+id/button_bt_flat_wave_color"
+		        android:layout_width="0dp"
+		        android:layout_height="@dimen/bt_height"
+		        android:layout_weight="0.4"
+		        android:textColor="#FF2196F3"
+		        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+		        android:text="BUTTON"
+		        app:rd_delayClick="afterRelease"/>
+	        
+	    </LinearLayout>
+	    
+	    <TextView 
+			android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="@dimen/title_text"
+		    android:padding="8dp"
+		    android:textColor="#FF000000"
+		    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+		    android:text="Raise"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1.0"
+	        android:gravity="center">
+	        
+	        <com.hanry.material.widget.Button
+                style="@style/RaiseButtonRippleStyle"
+		        android:id="@+id/button_bt_raise"
+		        android:layout_width="0dp"
+		        android:layout_height="@dimen/bt_height"
+		        android:layout_weight="0.4"
+		        android:textColor="#FF000000"
+		        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+		        android:text="BUTTON"/>
+	        
+	        <View
+	            android:layout_width="0dp"
+		        android:layout_height="1dp"
+		        android:layout_weight="0.1"/>
+	        
+	        <com.hanry.material.widget.Button
+                style="@style/RaiseColorButtonRippleStyle"
+		        android:id="@+id/button_bt_raise_color"
+		        android:layout_width="0dp"
+		        android:layout_height="@dimen/bt_height"
+		        android:layout_weight="0.4"
+		        android:textColor="#FFFFFFFF"
+		        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+		        android:text="BUTTON"
+		        app:rd_delayClick="afterRelease"/>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1.0"
+	        android:gravity="center"
+	        android:paddingTop="8dp">
+	        
+	        <com.hanry.material.widget.Button
+                style="@style/RaiseWaveButtonRippleStyle"
+		        android:id="@+id/button_bt_raise_wave"
+		        android:layout_width="0dp"
+		        android:layout_height="@dimen/bt_height"
+		        android:layout_weight="0.4"
+		        android:textColor="#FF000000"
+		        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+		        android:text="BUTTON"/>
+	        
+	        <View
+	            android:layout_width="0dp"
+		        android:layout_height="1dp"
+		        android:layout_weight="0.1"/>
+	        
+	        <com.hanry.material.widget.Button
+                style="@style/RaiseWaveColorButtonRippleStyle"
+		        android:id="@+id/button_bt_raise_wave_color"
+		        android:layout_width="0dp"
+		        android:layout_height="@dimen/bt_height"
+		        android:layout_weight="0.4"
+		        android:textColor="#FFFFFFFF"
+		        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+		        android:text="BUTTON"
+		        app:rd_delayClick="afterRelease"/>
+	        
+	    </LinearLayout>
+	    
+	    <TextView 
+			android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="@dimen/title_text"
+		    android:padding="8dp"
+		    android:textColor="#FF000000"
+		    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+		    android:text="Float"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1.0"
+	        android:gravity="center">
+
+            <com.hanry.material.widget.FloatingActionButton
+                style="@style/FloatingActionButton"
+                android:id="@+id/button_bt_float"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+	        <View
+	            android:layout_width="100dp"
+		        android:layout_height="1dp"/>
+
+            <com.hanry.material.widget.FloatingActionButton
+                style="@style/FloatingColorActionButton"
+                android:id="@+id/button_bt_float_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1.0"
+	        android:gravity="center"
+	        android:padding="8dp">
+
+            <com.hanry.material.widget.FloatingActionButton
+                style="@style/FloatingWaveActionButton"
+                android:id="@+id/button_bt_float_wave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+	        
+	        <View
+	            android:layout_width="100dp"
+		        android:layout_height="1dp"/>
+
+            <com.hanry.material.widget.FloatingActionButton
+                style="@style/FloatingWaveColorActionButton"
+                android:id="@+id/button_bt_float_wave_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+	</LinearLayout>
+    
+    
+</ScrollView>
+    
